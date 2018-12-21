@@ -1,0 +1,46 @@
+{
+  "start" : [
+    "<strike>Learn</strike> Do Javascript",
+    "Open the console and type <code>start()</code> to begin"
+  ],
+  "intro" : [
+    "First, you need to know a bit about javascript...",
+    "JS was originally designed to run on web pages like this",
+    "But it does so much more!",
+    "JS can make desktop apps with <a href='https://electronjs.org'>Electron</a>",
+    "or run in the command line with <a href='https://nodejs.org'>NodeJS</a>",
+    "It can even make mobile apps with <a href='https://facebook.github.io/react-native/'>React Native</a> (by Facebook)",
+    "<br />",
+    "What have you learnt about JS?",
+    "Type in the console <code>jsrunson(['platform1', 'platform2'])</code>",
+    "But replace the parameters with the info above",
+    "<br />",
+    "<strong>HINT:</strong> Use the values <code>web</code>, <code>terminal</code>, <code>desktop</code> and <code>mobile</code>"
+  ],
+  "datatypes" : [
+    "You should have just typed in something like",
+    "<code>jsrunson(['web', 'desktop', 'mobile', 'terminal']);</code>",
+    "<br />",
+    "Let's disect that: jsrunson is a function",
+    "Just type <code>jsrunson</code> (without the parenthesis this time) to see some code",
+    "<br />",
+    "In between the parenthesis are the PARAMETERS",
+    "Parameters are like information you say when giving an instruction",
+    "Like if you say to make a sandwhich with ham and cheese",
+    "Ham and Cheese are the parameters",
+    "eg. <code>new Sandwhich(['ham', 'cheese'])",
+    "<br />",
+    "The parameter there was called an Array",
+    "An array is a type of data (datatype)",
+    "Others include Strings (text)",
+    "There's also booleans, which can only have true or false (Like yes or no)",
+    "<br />",
+    "<span onclick='learningjscheck();'>[Click here to see if you are learning Javascript]</span>",
+    "<span id='learningjscheckresult'></span>"
+  ],
+  "variables" : [
+    "<code>iamlearningjs</code> isn't a function, it's a variable",
+    "A variable is something the computer keeps in it's RAM (like short-term memory)",
+    "This allows us to tell the computer something, and retrieve it later in the program"
+  ]
+}
